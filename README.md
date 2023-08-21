@@ -12,7 +12,7 @@
    - [Página de Estrenos](#página-de-estrenos)
    - [Página de Iniciar Sesión](#página-de-iniciar-sesión)
 4. [Tareas por Cumplir](#tareas-por-cumplir)
-5. [Instalación](#instalación)
+5. [Instalación](#Instalación-y-ejecución)
 6. [Contribuidores](#contribuidores)
 7. [Contacto](#contacto)
 
