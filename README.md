@@ -39,7 +39,6 @@ Look-Easy es una página de películas que ofrece una amplia selección de pelí
 - ![Bootstrap](public/icons/bootstrap.png) Bootstrap
 - ![jQuery](public/icons/jquery.png) jQuery
 - ![React](public/icons/react.png) React
-- ![Spring](public/icons/spring.png) Spring
 
 ## Capturas de Pantalla 📷
 
