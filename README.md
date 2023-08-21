@@ -77,8 +77,8 @@ Descripción: En esta página, los usuarios pueden descubrir las últimas pelíc
 
 ### Página de Iniciar Sesión
 
-![Página de Iniciar Sesión](public/screen/Inicio de Sesion.png)
-![Página de Registrarse](screenshots/registrarse.png)
+![Página de Iniciar Sesión](public/screen/Inicio_de_Sesion.png)
+![Página de Registrarse](public/screen/Registro.png)
 Descripción: Estas páginas permiten a los usuarios iniciar sesión o registrarse para acceder a funciones adicionales como crear listas de películas favoritas y dejar reseñas.
 <details>
   <summary><strong>Tareas por Cumplir</strong></summary>
