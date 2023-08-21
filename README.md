@@ -123,13 +123,16 @@ Ingresa al directorio del proyecto que acabas de clonar:
 
 Cambia <nombre_del_directorio> por el nombre del directorio que se creó después de clonar el repositorio.
 
-Instala las dependencias
+3. Instala las dependencias
+
 Asegúrate de tener Node.js y npm instalados en tu sistema. Luego, ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
 ```bash
    npm install
    ```
-Inicia la aplicación
+
+4. Inicia la aplicación
+
 Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación con el siguiente comando:
 
 ```bash
@@ -138,7 +141,7 @@ Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación c
 
 Esto iniciará un servidor de desarrollo y abrirá automáticamente la aplicación en tu navegador web predeterminado.
 
-Explora la aplicación
+5. Explora la aplicación
 Ahora deberías ver la aplicación React en tu navegador. ¡Puedes comenzar a explorar y probar sus características!
 
 ## Contribución 👥
