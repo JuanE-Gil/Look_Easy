@@ -10,15 +10,18 @@ const Buscador = () => {
   const [peliculas, setPeliculas] = useState([])
   const [series, setSeries] = useState([])
 
+  // Captura del parametro de busqueda
   const handleInputChange = e => {
     setBusqueda(e.target.value)
   }
 
+  // Método para prevenir que se recarge la página
   const handleSubmit = async e => {
     e.preventDefault()
     await fetchPeliculas()
   }
 
+  // Método para realizar la busqueda de peliculas y series
   const fetchPeliculas = async () => {
     try {
       const response = await fetch(
@@ -31,10 +34,13 @@ const Buscador = () => {
         item => item.media_type === 'movie'
       )
 
-      const seriesResult = data.results.filter(item => item.media_type === 'tv')
+      const seriesResult = data.results.filter(
+        item => item.media_type === 'tv'
+      )
 
       setPeliculas(peliculasResult)
       setSeries(seriesResult)
+      
     } catch (error) {
       console.error('Ha ocurrido un error: ', error)
     }
