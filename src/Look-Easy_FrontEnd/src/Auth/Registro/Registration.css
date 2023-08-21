@@ -1,0 +1,71 @@
+/* Aplicar estilos generales al formulario de registro */
+.register-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  height: 100%; /* Ocupar la altura completa del contenedor */
+}
+
+/* Estilos para el encabezado del formulario de registro */
+.register-form h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada en el formulario de registro */
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Estilos para el botón en el formulario de registro */
+.register-form button {
+  background-color: #234666;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #0e2941;
+}
+
+/* Estilos para el mensaje de error en el formulario de registro */
+.register-form .error-message {
+  color: red;
+  font-size: 12px;
+}
+
+/* Estilos para el mensaje de éxito en el formulario de registro */
+.register-form .success-message {
+  color: green;
+  font-size: 12px;
+}
+
+/* Estilos para el enlace de inicio de sesión en el formulario de registro */
+.register-form .login-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.register-form .login-link:hover {
+  text-decoration: underline;
+}

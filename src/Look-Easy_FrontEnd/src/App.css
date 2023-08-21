@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+:root{
+    --color-card: rgba(104, 66, 181, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  border-radius: 20px;
+  background: linear-gradient(166deg, rgb(35, 52, 88) 0%, #111827 100%);
+  color: white;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    padding: 2%;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.headerMovieContainer {
+    position: relative;
+    display: flex;
+}
+
+.loadMoreButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+
+.loadMoreButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%
+    }
+}
+
+.movieImage{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}

@@ -1,0 +1,92 @@
+.preciosContainer{
+    min-height: calc(100vh - 195px);
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #8e8e8e;
+}
+
+.precio {
+    position: relative;
+}
+
+.dolar {
+    position: absolute;
+    left: 50px;
+    color: #8e8e8e;
+}
+
+#gold {
+    position: absolute;
+    left: 25px;
+    color: #8e8e8e;
+}
+#silver{
+    position: absolute;
+    left: 25px;
+}
+
+.numero {
+    font-size: 50px;
+    color: #f33e5d;
+}
+
+.mes {
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.tabla {
+    background: #fff;
+    padding: 30px;
+}
+
+.caracteristicas {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+
+.numero2 {
+    color: #dc68c3;
+}
+
+.numero3 {
+    color: #7c51c1;
+}
+
+#tablados {
+    position: relative;
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.cuadradosuperior {
+    width: 305px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    box-shadow: -2px -4px 5px #ccc;
+}
+
+.cuadradoinferior {
+    width: 305px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    left: -40px;
+    left: 0;
+    box-shadow: -1px 4px 5px #ccc;
+}
+

@@ -1,0 +1,26 @@
+.link {
+    background: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 22px;
+    margin-top: 20px;
+    display: inline-block;
+        font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.link:hover{
+        background: deeppink;
+    letter-spacing: 2px;
+    opacity: .8; 
+}
+
+
+ul {
+    list-style: none;
+    text-align: center;
+    /* left: -20px; */
+}

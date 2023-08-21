@@ -1,0 +1,113 @@
+/* Estilos generales */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #00466A;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-height: calc(100vh - 150px);
+}
+
+/* Estilos del título */
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #F8F9FB;
+}
+
+/* Estilos del formulario */
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  width: 15%;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  border-radius: 13px;
+  padding: 10px;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1231bb ;
+  color: white;
+  border-bottom: 6px solid #0d067a ;
+  transition: 0.5s ease-in-out;
+}
+
+.search-button:hover{
+    transition: 0.5s ease-out;
+    transform: translateY(-5px);
+    font-size: 1.5rem;
+}
+
+/* Estilos de la lista de películas y series */
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.movie-section,
+.series-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 350px;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid #c3c3c3;
+  border-bottom: 4px solid #c3c3c3;
+  border-radius: 13px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-poster {
+  max-width: 100%;
+  background-size: cover;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movie-title {
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}

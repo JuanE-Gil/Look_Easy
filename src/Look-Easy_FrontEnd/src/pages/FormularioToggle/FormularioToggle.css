@@ -1,0 +1,88 @@
+/* Estilos del contenedor principal */
+.formulario-toggle-container {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos del contenedor del formulario */
+.form-container {
+  width: 70%;
+  max-width: 400px;
+  margin: auto; /* Centrar horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center;
+}
+
+/* Estilos del formulario */
+.form {
+  background: #333;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Estilos de la imagen en el formulario */
+.image-form {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  background-image: url(../../assets/img/icono_cine.png);
+  background-size: cover;
+}
+
+/* Estilos de los campos de entrada */
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 7px;
+  margin: 0 0 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Estilos del botón */
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #234666;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0e2941;
+}
+
+/* Estilos del mensaje en el formulario */
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+/* Estilos del enlace en el mensaje */
+.form .message a {
+  color: #3f5efb;
+  text-decoration: none;
+}
+
+/* Estilos del enlace al pasar el mouse */
+.form .message a:hover {
+  color: #6198ff;
+  text-decoration: underline;
+}

@@ -1,0 +1,165 @@
+/* PaymentsContainer.css */
+
+/* Estilos generales */
+.paymentContainer {
+    min-height: calc(100vh - 160px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+/* Estilos del formulario */
+.paymentContainer form {
+    background: #4d4c4c;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paymentContainer form .inputBox {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.paymentContainer form .inputBox span {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.paymentContainer form .inputBox input,
+.paymentContainer form .inputBox select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #444;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.paymentContainer form .flexbox {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.paymentContainer form .flexbox .inputBox {
+    flex: 1;
+}
+
+.paymentContainer form .submit-btn {
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.paymentContainer form .submit-btn:hover {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+/* Estilos de la tarjeta */
+.paymentContainer .card-container {
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentContainer .card-container .front,
+.paymentContainer .card-container .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paymentContainer .card-container .front {
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.paymentContainer .card-container .back {
+    transform: perspective(1000px) rotateY(180deg);
+}
+
+.paymentContainer .card-container .front .image,
+.paymentContainer .card-container .back .stripe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.paymentContainer .card-container .front .image img {
+    height: 50px;
+}
+
+.paymentContainer .card-container .front .card-number-box {
+    padding: 30px 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.paymentContainer .card-container .front .flexbox,
+.paymentContainer .card-container .back .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paymentContainer .card-container .front .flexbox .box:nth-child(1) {
+    margin-right: auto;
+}
+
+.paymentContainer .card-container .front .flexbox .box,
+.paymentContainer .card-container .back .box {
+    font-size: 15px;
+    color: #fff;
+}
+
+.paymentContainer .card-container .back .box .cvv-box {
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paymentContainer .card-container .back .box img {
+    margin-top: 20px;
+    height: 30px;
+}

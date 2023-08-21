@@ -1,0 +1,77 @@
+/* Estilos del navbar */
+.navbar {
+    background-color: #06142E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo{
+    width: 64px;
+    object-fit: cover;
+    transition: 0.5s ease-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+
+.nav-item:hover {
+    transition: 0.5s ease-out;
+    transform: translateY(-5px);
+}
+
+
+.nav-links li {
+    margin-right: 20px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tipos {
+    color: white;
+    display: flex;
+}
+/* Estilos del menú de búsqueda */
+.btn-primary {
+    margin-left: 5px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

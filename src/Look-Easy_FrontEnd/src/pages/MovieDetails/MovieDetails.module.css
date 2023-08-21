@@ -1,0 +1,51 @@
+/* Estilos generales */
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 150px);
+  margin-top: 20px;
+}
+
+.detalle {
+  display: flex;
+  padding: 1%;
+}
+
+/* Estilos de la imagen de la película */
+.movieImage {
+  border-radius: 15px;
+  object-fit: cover;
+  background-size: cover;
+  max-width: 397px;
+  height: auto;
+}
+
+/* Estilos del título */
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* Estilos de los detalles de la película */
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 486px;
+  padding-top: 10px;
+}
+
+.movieDetails p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+/* Estilos del reproductor de video */
+.videoPlayerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
