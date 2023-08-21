@@ -86,7 +86,10 @@ Descripción: Estas páginas permiten a los usuarios iniciar sesión o registrar
 -   [ ] Implementar la funcionalidad de registro con cuentas de redes sociales.
 </details>
 
+### Página de Iniciar Sesión
 
+![Página Buscador](public/screen/Buscador_pt.1.png)
+Descripción: Estas páginas permiten a los usuarios realizar búsquedas personalizadas de contenido
 ## Tareas por Cumplir ✅
 
 <details>
