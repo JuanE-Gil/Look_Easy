@@ -102,10 +102,44 @@ Descripción: Estas páginas permiten a los usuarios realizar búsquedas persona
 - [ ] Mejorar el rendimiento y la optimización del código.
 </details>
 
-## Instalación 🚀
+# Instalación y ejecución
 
-1. Clona este repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador web.
+Sigue estos pasos para clonar y ejecutar localmente este proyecto basado en React:
+
+1. Clona este repositorio
+
+Abre tu terminal y ejecuta el siguiente comando:
+```bash
+   git clone <URL_del_repositorio>
+   ```
+Reemplaza `<URL_del_repositorio>` con la URL real de tu repositorio de GitHub.
+
+2. Navega al directorio del proyecto
+
+Ingresa al directorio del proyecto que acabas de clonar:
+```bash
+   cd <nombre_del_directorio>
+   ```
+
+Cambia <nombre_del_directorio> por el nombre del directorio que se creó después de clonar el repositorio.
+
+Instala las dependencias
+Asegúrate de tener Node.js y npm instalados en tu sistema. Luego, ejecuta el siguiente comando para instalar las dependencias del proyecto:
+
+```bash
+   npm install
+   ```
+Inicia la aplicación
+Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación con el siguiente comando:
+
+```bash
+   npm start
+```
+
+Esto iniciará un servidor de desarrollo y abrirá automáticamente la aplicación en tu navegador web predeterminado.
+
+Explora la aplicación
+Ahora deberías ver la aplicación React en tu navegador. ¡Puedes comenzar a explorar y probar sus características!
 
 ## Contribución 👥
 
