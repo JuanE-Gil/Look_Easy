@@ -8,7 +8,7 @@ const Carrusel = () => {
         const fetchData = async () => {
             try {
                 const respuesta = await fetch(
-                    'https://api.themoviedb.org/3/movie/now_playing?api_key=0e239e659ae4c0579b4593c035642123&language=es-MX'
+                    'https://api.themoviedb.org/3/movie/now_playing?api_key=&language=es-MX'
                 );
                 const datos = await respuesta.json();
                 setPeliculas(datos.results.slice(0, 3));
