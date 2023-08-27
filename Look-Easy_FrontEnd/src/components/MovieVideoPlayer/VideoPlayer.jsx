@@ -7,7 +7,7 @@ const VideoPlayer = ({ movieId }) => {
         const fetchVideo = async () => {
             try {
                 const videoResponse = await fetch(
-                    `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=0e239e659ae4c0579b4593c035642123&language=es-MX`
+                    `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=&language=es-MX`
                 );
 
                 if (videoResponse.status === 200) {
