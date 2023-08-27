@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Buscador = () => {
   const urlBase = 'https://api.themoviedb.org/3/search/multi'
-  const API_KEY = '0e239e659ae4c0579b4593c035642123'
+  const API_KEY = ''
 
   const [busqueda, setBusqueda] = useState('')
   const [peliculas, setPeliculas] = useState([])
